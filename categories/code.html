@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Best Free Code AI Tools 2026 | ToolNest</title>
+<meta name="description" content="Best free AI coding tools, online IDEs, regex helpers, and ML hubs for developers.">
+<meta name="keywords" content="best free Code AI tools 2026, free Code tools, AI directory">
+<link rel="canonical" href="https://spook2406.github.io/ai-tools-directory/categories/code.html">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header"><nav class="nav">
+<a class="logo" href="../index.html">Tool<span>Nest</span></a>
+<div class="nav-links"><a href="../index.html">Directory</a><a href="../about.html">About</a><a href="../privacy.html">Privacy</a></div>
+</nav></header>
+<main class="container" style="padding-top:28px">
+  <h1 class="section-title">Best Free Code Tools (2026)</h1>
+  <p style="color:var(--muted);margin-bottom:16px">Best free AI coding tools, online IDEs, regex helpers, and ML hubs for developers.</p>
+  <div class="ad-slot"><span>Advertisement placeholder</span></div>
+  <div class="tool-grid" id="tool-grid"></div>
+  <p style="margin-top:20px"><a href="../index.html">← Full directory</a></p>
+</main>
+<footer class="site-footer"><div class="footer-inner"><p>© 2026 ToolNest</p><div class="footer-links"><a href="../privacy.html">Privacy</a><a href="../about.html">About</a></div></div></footer>
+<script src="../js/tools.js"></script>
+<script>
+(function(){
+  const grid=document.getElementById('tool-grid');
+  const cat="Code";
+  (window.TOOLS||[]).filter(t=>t.category===cat).forEach(t=>{
+    const a=document.createElement('article');
+    a.className='tool-card';
+    a.innerHTML='<div class="tool-top"><h3></h3><span class="cat-tag"></span></div><p></p><span style="font-size:.78rem;color:var(--muted)"></span><a class="btn" rel="noopener noreferrer" target="_blank">Visit site →</a>';
+    a.querySelector('h3').textContent=t.name;
+    a.querySelector('.cat-tag').textContent=t.category;
+    a.querySelector('p').textContent=t.desc;
+    a.querySelector('span[style]').textContent=t.free;
+    a.querySelector('a.btn').href=t.url;
+    grid.appendChild(a);
+  });
+})();
+</script>
+</body></html>

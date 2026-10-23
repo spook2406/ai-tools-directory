@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spook2406.github.io/ai-tools-directory/sitemap.xml
