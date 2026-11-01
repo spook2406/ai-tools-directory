@@ -16,6 +16,7 @@ window.TOOLS = [
   { name: "Fontjoy", category: "Image", desc: "AI-assisted font pairing suggestions for design projects.", url: "https://fontjoy.com", free: "Free" },
 
   // Code
+  { name: "agent-qa", category: "Code", desc: "Natural-language web and mobile QA via CLI/MCP, with advanced memidex memory and evidence-based test improvement.", url: "https://vostride.com", free: "Free CLI (FSL-1.1-ALv2); model costs extra" },
   { name: "GitHub Copilot", category: "Code", desc: "AI pair programmer that suggests code and completes functions in your IDE.", url: "https://github.com/features/copilot", free: "Paid / student free" },
   { name: "Cursor", category: "Code", desc: "AI-first code editor built for agentic coding and large codebases.", url: "https://cursor.com", free: "Freemium" },
   { name: "v0 by Vercel", category: "Code", desc: "Generate UI components from prompts, optimized for React and Tailwind.", url: "https://v0.dev", free: "Freemium" },
